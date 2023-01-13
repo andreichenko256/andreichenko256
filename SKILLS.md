@@ -83,8 +83,8 @@
 
 ## Swift/iOS
 
-| Memory management    | Design patterns              | Multithreading and concurrency           | Technique        | Problems             |
-|-----------------------|----------------------------|-------------------|------------------|----------------------|
+| Memory management    | Design patterns              | Multithreading and concurrency           | UIkit        | Design principles             | Main frameworks 
+|-----------------------|----------------------------|-------------------|------------------|----------------------|----------------------
 | 🟦 Stack and Heap     | 🟦 MVC                      | 🟦 POSIX  | 🟦 Logging       | 🟦 Memory leaks      |
 | 🟦 Value              | 🟦 MVP| 🟦 NSThreads |
 | 🟦 Reference type     | 🟦 MVVM|  🟦 Perform selector family |
