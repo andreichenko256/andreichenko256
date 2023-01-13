@@ -81,6 +81,23 @@
 | ⬜ Coroutine           |                                |                     |                          |
 | ⬜ Goroutine           |                                |                     |                          |
 
+## Swift/iOS
+
+| Memory management    | Design patterns              | Multithreading and concurrency           | Technique        | Problems             |
+|-----------------------|----------------------------|-------------------|------------------|----------------------|
+| 🟦 Stack and Heap     | 🟦 MVC                      | 🟦 POSIX  | 🟦 Logging       | 🟦 Memory leaks      |
+| 🟦 Value              | 🟦 MVP| 🟦 NSThreads |
+| 🟦 Reference type     | 🟦 MVVM|  🟦 Perform selector family |
+| 🟦 MRC                | 🟦 VIPER| 🟦 GCD |
+| 🟦 ARC                | | 🟦 NSOperation(Queue) |
+| 🟦 Weak references    | | 🟦 Runloop |
+| 🟦 Retain cycles      | | 🟦 Race condition |
+| 🟦 Garbage collection | | 🟦 Readers–writers problem |
+| 🟦 Memory leaks |SOA | 
+| 🟦 Shallow copying |Redux | 
+| 🟦 Deep copying |Decorator |
+| 🟦 Autorelease pool |Facade |
+| | | |
 ## Node.js and backend
 
 | Internals            | Theory                       | Network           | Technique        | Problems             |
@@ -109,3 +126,6 @@
 | ⬜ SharedArrayBuffer | 🟦 Event Sourcing            |                   |                  |                      |
 | 🟦 child_process     | 🟦 Shared memory             |                   |                  |                      |
 | 🟦 worker_threads    |                              |                   |                  |                      |
+
+
+
