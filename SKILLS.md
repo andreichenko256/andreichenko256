@@ -61,7 +61,11 @@
 | 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          
 | ⬜ Metaprogramming             | 🟦 instance           |                      |                          
 | ⬜ Actor model                 | ⬜ Introspection      |                      |                          
-|                                | ⬜ Reflection         |                      |                         
+|                                | ⬜ Reflection         |                      |          
+|                                | 🟦 SOLID         |                      |
+|                                | 🟦 GRASP         |                      |
+
+  
 
 </div>
 
@@ -98,24 +102,23 @@
 
 <div align="center">
   
-| Memory management    | Design patterns | Multithreading and concurrency | UIkit | Design principles             | Main frameworks 
-|-----------------------|----------------|--------------------------------|--------|----------------------|----------------------
-| 🟦 Stack and Heap     | 🟦 MVC          | 🟦 POSIX                      |  | 🟦 Memory leaks      |
-| 🟦 Value              | 🟦 MVP          | 🟦 NSThreads |
-| 🟦 Reference type     | 🟦 MVVM         | 🟦 Perform selector family |
-| 🟦 MRC                | 🟦 VIPER        | 🟦 GCD |
-| 🟦 ARC                | 🟦Abstract Factory | 🟦 NSOperation(Queue) |
-| 🟦 Weak references    |     Builder         | 🟦 Runloop |
-| 🟦 Retain cycles      | Factory Method  | 🟦 Race condition |
-| 🟦 Garbage collection | Singleton    | 🟦 Readers–writers problem |
-| 🟦 Memory leaks       | 🟦 Factory Method  | 
-| 🟦 Shallow copying    | 🟦 Redux          | 
-| 🟦 Deep copying       | 🟦 Decorator      |
-| 🟦 Autorelease pool   | 🟦 Facade         |  
-| 🟦 Autorelease pool   | 🟦 Adapter        | 
-| 🟦 Autorelease pool   | 🟦 Iterator       | 
-| 🟦 Autorelease pool   | 🟦 Strategy      | 
-| 🟦 Autorelease pool   | 🟦 Command     | 
-| 🟦 Autorelease pool   | 🟦 Prototype  | 
+| Memory management    | Design patterns         | Multithreading and concurrency | Data storage     | Requests and APIs | Main frameworks           |
+|----------------------|-------------------------|--------------------------------|------------------|-------------------|---------------------------|
+| 🟦 Stack and Heap     | 🟦 MVC, MVP, MVVM, VIPER | 🟦 POSIX                        | 🟦 NSUserDefaults | 🟦 REST API        | 🟦 UIkit                   |
+| 🟦 Value              | 🟦 Abstract Factory      | 🟦 NSThreads                    | 🟦 Core Data      | 🟦 GraphQL         | 🟦 SwiftUI                 |
+| 🟦 Reference type     | 🟦 Builder               | 🟦 Perform selector family      | 🟦 KeyChain       | 🟦 JSON            | 🟦 Vapor                   |
+| 🟦 MRC                | 🟦 Factory Method        | 🟦 GCD                          | 🟦 Plist          | 🟦 WebSocket       | 🟦 Alamofire               |
+| 🟦 ARC                | 🟦 Singleton             | 🟦 NSOperation(Queue)           | 🟦 Disk storage   | 🟦 WebRTC          | 🟦 Starscream              |
+| 🟦 Weak references    | 🟦 Factory Method        | 🟦 Runloop                      | 🟦 CloudKit       | 🟦 XML             | 🟦 Socket.io(Client Swift) |
+| 🟦 Retain cycles      | 🟦 Redux                 | 🟦 Race condition               | 🟦 SQLite         | 🟦 Codable         | 🟦 Quick                   |
+| 🟦 Garbage collection | 🟦 Decorator             | 🟦 Readers–writers problem      | 🟦 Realm          | 🟦 Protobuf        | 🟦 Foundation              |
+| 🟦 Memory leaks       | 🟦 Facade                |                                | 🟦 Firebase       |                   |                           |
+| 🟦 Shallow copying    | 🟦 Adapter               |                                |                  |                   |                           |
+| 🟦 Deep copying       | 🟦 Iterator              |                                |                  |                   |                           |
+| 🟦 Autorelease pool   | 🟦 Strategy              |                                |                  |                   |                           |
+|                      | 🟦 Command               |                                |                  |                   |                           |
+|                      | 🟦 Prototype             |                                |                  |                   |                           |
 
 </div>
+
+
