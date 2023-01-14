@@ -4,6 +4,8 @@
 
 ## Fundamental concepts
 
+<div align="center">
+
 | Syntax               | Statements            | Functions             | Data structures     | Process & style      |
 |----------------------|-----------------------|-----------------------|---------------------|----------------------|
 | 🟦 value             | 🟦 if                 | 🟦 recursion          | 🟦 array            | 🟦 refactoring       |
@@ -32,32 +34,40 @@
 | 🟨 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
 | 🟨 typeof            |                       |                       | 🟦 null             |                      |
 
+</div>
+
 ## Multi-paradigm programming
 
-| Theory                         | OOP basics            | Abstractions         | Patterns                 |
-|--------------------------------|-----------------------|----------------------|--------------------------|
-| 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 🟦 Singleton             |
-| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     |                          |
-| 🟦 Structured programming      | 🟦 Static method      | ⬜ Immutable state   |                          |
-| 🟦 Non-structured programming  | 🟦 Method             | ⬜ Enum              |                          |
-| 🟦 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                          |
-| 🟦 Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                          |
-| 🟦 Object-oriented programming | 🟦 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |                          |
-| 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          |
-| 🟦 Concurrent computing        | 🟦 Inheritance        | 🟦 Graphs            |                          |
-| 🟦 Asyncronous programming     | 🟦 Parent class       | 🟦 Functor           |                          |
-| 🟦 Parallel programming        | 🟦 Polymorphism       | 🟦 Functional object |                          |
-| 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          |
-| ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟦 Generator         |                          |
-| 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟦 Iterator          |                          |
-| 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
-| 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
-| ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
-| ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
-|                                | ⬜ Reflection         |                      |                          |
+<div align="center">
+
+| Theory                         | OOP basics            | Abstractions         | 
+|--------------------------------|-----------------------|----------------------|
+| 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 
+| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     | 
+| 🟦 Structured programming      | 🟦 Static method      | ⬜ Immutable state   | 
+| 🟦 Non-structured programming  | 🟦 Method             | ⬜ Enum              |  
+| 🟦 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                         
+| 🟦 Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                  
+| 🟦 Object-oriented programming | 🟦 Public fields      | 🟦 Unrolled list     |                        
+| ⬜ Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |             
+| 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          
+| 🟦 Concurrent computing        | 🟦 Inheritance        | 🟦 Graphs            |                          
+| 🟦 Asyncronous programming     | 🟦 Parent class       | 🟦 Functor           |                          
+| 🟦 Parallel programming        | 🟦 Polymorphism       | 🟦 Functional object |                          
+| 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          
+| ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟦 Generator         |                          
+| 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟦 Iterator          |                          
+| 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          
+| 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          
+| ⬜ Metaprogramming             | 🟦 instance           |                      |                          
+| ⬜ Actor model                 | ⬜ Introspection      |                      |                          
+|                                | ⬜ Reflection         |                      |                         
+
+</div>
 
 ## Asynchronous programming
+
+<div align="center">
 
 | Async contracts        | JavaScript & Node.js specific  | Theory              | Techniques               |
 |------------------------|--------------------------------|---------------------|--------------------------|
@@ -81,23 +91,31 @@
 | ⬜ Coroutine           |                                |                     |                          |
 | ⬜ Goroutine           |                                |                     |                          |
 
+</div>
+  
 ## Swift/iOS
 
-| Memory management    | Design patterns              | Multithreading and concurrency           | UIkit        | Design principles             | Main frameworks 
-|-----------------------|----------------------------|-------------------|------------------|----------------------|----------------------
-| 🟦 Stack and Heap     | 🟦 MVC                      | 🟦 POSIX  | 🟦 Logging       | 🟦 Memory leaks      |
-| 🟦 Value              | 🟦 MVP| 🟦 NSThreads |
-| 🟦 Reference type     | 🟦 MVVM|  🟦 Perform selector family |
-| 🟦 MRC                | 🟦 VIPER| 🟦 GCD |
-| 🟦 ARC                | | 🟦 NSOperation(Queue) |
-| 🟦 Weak references    | | 🟦 Runloop |
-| 🟦 Retain cycles      | | 🟦 Race condition |
-| 🟦 Garbage collection | | 🟦 Readers–writers problem |
-| 🟦 Memory leaks |SOA | 
-| 🟦 Shallow copying |Redux | 
-| 🟦 Deep copying |Decorator |
-| 🟦 Autorelease pool |Facade |
-| | | |
 
+<div align="center">
+  
+| Memory management    | Design patterns | Multithreading and concurrency | UIkit | Design principles             | Main frameworks 
+|-----------------------|----------------|--------------------------------|--------|----------------------|----------------------
+| 🟦 Stack and Heap     | 🟦 MVC          | 🟦 POSIX                      |  | 🟦 Memory leaks      |
+| 🟦 Value              | 🟦 MVP          | 🟦 NSThreads |
+| 🟦 Reference type     | 🟦 MVVM         | 🟦 Perform selector family |
+| 🟦 MRC                | 🟦 VIPER        | 🟦 GCD |
+| 🟦 ARC                | 🟦Abstract Factory | 🟦 NSOperation(Queue) |
+| 🟦 Weak references    |     Builder         | 🟦 Runloop |
+| 🟦 Retain cycles      | Factory Method  | 🟦 Race condition |
+| 🟦 Garbage collection | Singleton    | 🟦 Readers–writers problem |
+| 🟦 Memory leaks       | 🟦 Factory Method  | 
+| 🟦 Shallow copying    | 🟦 Redux          | 
+| 🟦 Deep copying       | 🟦 Decorator      |
+| 🟦 Autorelease pool   | 🟦 Facade         |  
+| 🟦 Autorelease pool   | 🟦 Adapter        | 
+| 🟦 Autorelease pool   | 🟦 Iterator       | 
+| 🟦 Autorelease pool   | 🟦 Strategy      | 
+| 🟦 Autorelease pool   | 🟦 Command     | 
+| 🟦 Autorelease pool   | 🟦 Prototype  | 
 
-
+</div>
