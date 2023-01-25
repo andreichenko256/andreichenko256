@@ -118,7 +118,7 @@
 | 🟩 Autorelease pool   | 🟩 Strategy              |                                |                  |                   |                           |
 |                      | 🟩 Command               |                                |                  |                   |                           |
 |                      | 🟩 Prototype             |                                |                  |                   |                           |
-
+|                      | 🟦 DDD
 </div>
 
 
