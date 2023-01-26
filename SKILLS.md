@@ -110,7 +110,7 @@
 | 🟩 Reference type     | 🟩 Builder               | 🟩 Perform selector family      | 🟩 KeyChain       | 🟩 JSON            | 🟦 Vapor                   |
 | 🟩 MRC                | 🟩 Factory Method        | 🟩 GCD                          | 🟩 Plist          | 🟩 WebSocket       | 🟩 Alamofire               |
 | 🟩 ARC                | 🟩 Singleton             | 🟩 NSOperation(Queue)           | 🟩 Disk storage   | 🟩 WebRTC          | 🟩 Starscream              |
-| 🟩 Weak references    | 🟩 Factory Method        | 🟩 Runloop                      | 🟩 CloudKit       | 🟩 XML             | 🟩 Socket.io(Client Swift) |
+| 🟩 Weak references    | 🟦 DDD        | 🟩 Runloop                      | 🟩 CloudKit       | 🟩 XML             | 🟩 Socket.io(Client Swift) |
 | 🟩 Retain cycles      | 🟩 Redux                 | 🟩 Race condition               | 🟩 SQLite         | 🟩 Codable         | 🟦 Quick                   |
 | 🟩 Garbage collection | 🟩 Decorator             | 🟩 Readers–writers problem      | 🟩 Realm          | 🟦 Protobuf        | 🟩 Foundation              |
 | 🟩 Memory leaks       | 🟩 Facade                |                                | 🟩 Firebase       |                   |                           |
@@ -119,7 +119,7 @@
 | 🟩 Autorelease pool   | 🟩 Strategy              |                                |                  |                   |                           |
 |                      | 🟩 Command               |                                |                  |                   |                           |
 |                      | 🟩 Prototype             |                                |                  |                   |                           |
-|                      | 🟦 DDD
+|                      | 
 </div>
 
 
