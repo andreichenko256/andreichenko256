@@ -32,7 +32,8 @@
 | 🟩 instanceof        |                       | 🟩 wrapper            | 🟨 RegExp           | 🟩 github            |
 | 🟩 ...spread         |                       | 🟩 default parameters | 🟩 global           | 🟩 node.js           |
 | 🟩 ...rest           |                       |                       | 🟩 undefined        | 🟩 npm               |
-| 🟩 typeof            |                       |                       | 🟩 null             |                      |
+| 🟩 typeof            |                       |                       | 🟩 null(nil)        | 🟩 yarn               |
+|                      |                       |                       | 🟩 optional             | 🟩 postman             |
 
 </div>
 
