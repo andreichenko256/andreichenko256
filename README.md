@@ -1,4 +1,3 @@
-<code>🎓 Student: KPI / ІМ-21мп</code>
 <code>👷 Speciality: Software engineer / iOS Developer</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
